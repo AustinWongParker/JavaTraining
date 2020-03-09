@@ -1,3 +1,7 @@
+/*
+ * Austin Wong-Parker
+ * Hello World - Java
+ */
 class HelloWorld {
 	public static void main(String args[])
 	{

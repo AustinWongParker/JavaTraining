@@ -1,0 +1,16 @@
+1. Download Java JDK 8
+2. Download Eclipse (or whatever IDE you want)
+3. Set-up Windows path:
+	Right-click on 'My Computer' and select 'Properties'.
+	Click the 'Environment variables' button under the 'Advanced' tab.
+	Now, alter the 'Path' variable so that it also contains the path to the Java executable. 
+	Example, if the path is currently set to 'C:\WINDOWS\SYSTEM32', then change your path to read 'C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin'.
+4. Navigate into the directory (cd)
+5. Run java files ...
+	C:\> javac HelloWorld.java
+	C:\> java HelloWorld
+	Hello World
+
+	*Notes: Case Sensitivity, class names should be Upper Case, methods start with lower case (myMethodName), Class and Program file
+		should be the same name ('HelloWorld.java' and 'HelloWorld' class).
+		Every java program must have a main() method: 'public static void main(String args[])'
